@@ -1,0 +1,9 @@
+
+spec:
+  name: sample-app
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/djkunkel/AspNetCoreDemoApp.git
+    name: sample-app

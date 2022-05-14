@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: https://github.com/djkunkel/AspNetCoreDemoApp
+    repo: https://github.com/djkunkel/AspNetCoreDemoApp.git
   name: sample-app
