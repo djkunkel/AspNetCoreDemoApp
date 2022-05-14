@@ -18,4 +18,5 @@ WORKDIR /app
 COPY --from=builder /app .
 COPY --from=node /app/build ./wwwroot
 CMD ASPNETCORE_URLS=http://*:$PORT ./AspNetCoreDemoApp
+EXPOSE 5000
 ENTRYPOINT ["dotnet", "AspNetCoreDemoApp.dll"]
